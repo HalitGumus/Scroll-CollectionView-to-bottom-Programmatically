@@ -4,7 +4,7 @@ let y = NSIndexPath(item: x, section: 0)
 
 collectionView.scrollToItem(at: y as IndexPath, at: .bottom, animated: true)
 
-OR
+//OR
 
 collectionView.contentOffset.y = (400)
 
